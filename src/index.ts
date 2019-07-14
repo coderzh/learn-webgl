@@ -1,6 +1,8 @@
 import { sayHello } from "./greet";
 import { lesson1 } from "./lessons/lesson1"
 import { lesson2 } from "./lessons/lesson2"
+import { lesson3 } from "./lessons/lesson3"
+
 
 function showHello(divName: string, name: string) {
   const elt = document.getElementById(divName);
@@ -19,7 +21,8 @@ function showHello(divName: string, name: string) {
   // const ctx = canvas2d.getContext("2d");
   // ctx.fillText("hello", 0, 0);
 
-  lesson2(gl);
+  // lesson2(gl);
+  lesson3(gl);
 })();
 
 showHello("greeting", "TypeScript!");
