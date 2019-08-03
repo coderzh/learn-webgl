@@ -3,6 +3,7 @@ import { lesson1 } from "./lessons/lesson1"
 import { lesson2 } from "./lessons/lesson2"
 import { lesson3 } from "./lessons/lesson3"
 import { lesson4 } from "./lessons/lesson4"
+import { lesson5 } from "./lessons/lesson5"
 
 
 function showHello(divName: string, name: string) {
@@ -24,7 +25,8 @@ function showHello(divName: string, name: string) {
 
   // lesson2(gl);
   // lesson3(gl);
-  lesson4(gl);
+  // lesson4(gl);
+  lesson5(gl);
 })();
 
 showHello("greeting", "TypeScript!");
